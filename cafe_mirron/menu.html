@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style menu.css">
+    <title>Cafe Miron - Your Perfect Cafe</title>
+
+    <!-- Firebase App SDKs -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js"></script>
+    <!-- Firebase Realtime Database SDK -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js"></script>
+    <!-- Firebase Firestore SDK -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js"></script>
+    <script type="module" src="scripts/Menu.js"></script>
+</head>
+
+<body>
+    <div class="header" id="header-container">
+        <h1 class="header-name">Cafe Miron</h1>
+        <div class="logo" id="logo-container">
+
+            <img 
+                class="logo-image" 
+                src="https://firebasestorage.googleapis.com/v0/b/cafemironapp.appspot.com/o/logo.png?alt=media&token=d77b8e19-24cd-4523-9e5d-2632d655ca91&_gl=1*qa6ily*_ga*MTY1MTk2NTQyLjE2OTcwNDc2OTM.*_ga_CW55HF8NVT*MTY5ODk2NDU4NC43NS4xLjE2OTg5NjUzNzcuNDUuMC4w" 
+                alt="Cafe Miron Logo" 
+                id="logo-image"
+            >
+
+            <div class="social-icons" id="social-icons-container">
+                <a href="https://www.facebook.com/cafemiron?mibextid=ZbWKwL">
+                    <img class="social-icon" src="images/fb2.png" alt="Facebook Icon" id="facebook-icon">
+                </a>
+                <a href="https://wa.me/1234567890">
+                    <img class="social-icon" src="images/whp.png" alt="WhatsApp Icon" id="whatsapp-icon">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="menu-items" id="menu-items-container" style="margin: 0 100px;">
+        <div class="intro-section" id="intro-section-container">
+            <img class="main-image" src="images/photo7.jpg" alt="Cafe Miron Main Image" id="main-image">
+            <h1 class="cafe-name" id="cafe-name-heading">Cafe Miron</h1>
+            <div class="divider" id="divider-line"></div>
+            <p class="tagline" id="tagline-paragraph">The Pleasure of Variety on Your Plate</p>
+        </div>
+
+        <!-- Menu items will be inserted here dynamically -->
+        <div class="menu-section" id="menu-section-container">No Menu Items</div>
+
+
+
+    </div>
+    <div class="about-section" id="about-section-container" style="margin: 0 100px;">
+
+        <h2 class="about-heading" id="about-heading">About Cafe Miron</h2>
+        <p class="about-description" id="about-description">"Dream, then come to us for the food you dreamt of!" Our
+            journey from the bean to the cup started in the year 2014 when the cafe culture had not yet set its
+            footprint, and coffee was still considered a luxury. Our quest to provide a truly nice experience and brew
+            the perfect one led us to create the largest and most preferred cafe chain in Sri Lanka.</p>
+    </div>
+    <div class="contact-section" id="contact-section-container" style="margin: 0 100px;">
+        <h2 class="contact-heading" id="contact-heading">Contact Information</h2>
+        <div class="contact-details" id="contact-details-container">
+            <p class="contact-title" id="contact-title">Contacts</p>
+            <p class="contact-info" id="contact-info">
+                Cafe Miron<br>
+                Pallegama, Embilipitiya<br>
+                Tel: +94 71 7189100<br>
+                Email: mironjuice10@gmail.com
+            </p>
+            <p class="open-hours-title" id="open-hours-title">Open Hours</p>
+            <p class="open-hours-info" id="open-hours-info">Monday - Sunday: 8am - 8pm</p>
+            <p class="social-title" id="social-title">Social</p>
+        </div>
+        <div class="qr2-container">
+            <img class="about-image" src="images/frame.png" alt="About Cafe Miron" id="about-image">
+        </div>
+        <div class="social-links" id="social-links-container">
+
+            <a href="https://www.facebook.com/cafemiron?mibextid=ZbWKwL">
+                <img class="social-icon" src="images/fb2.png" alt="Facebook Icon" id="facebook-icon">
+            </a>
+            <a href="https://wa.me/1234567890">
+                <img class="social-icon" src="images/whp.png" alt="WhatsApp Icon" id="whatsapp-icon">
+            </a>
+        </div>
+    </div>
+    <div class="footer" id="footer-container">
+        <p class="privacy-policy" id="privacy-policy-link">Privacy Policy</p>
+        <p class="terms-and-conditions" id="terms-and-conditions-link">Terms & Conditions</p>
+        <p class="current-year" id="current-year">2023</p>
+        <p class="site-credit" id="site-credit">Cafe Miron - Proudly Powered by ...............</p>
+    </div>
+</body>
+
+</html>
